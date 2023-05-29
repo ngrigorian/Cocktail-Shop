@@ -1,0 +1,486 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.first-row {
+    width: 100%;
+    height: 50px;
+    background-color: blue;
+}
+
+.first-row h4 {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    font-family: monospace;
+    color: white;
+    font-size: 15px;
+}
+
+.left-side .logo img {
+    height: 30px;
+}
+
+.left-side .logo {
+    padding-left: 80px;
+    padding-top: 20px;
+}
+
+.left-side {
+    display: flex;
+    width: 60%;
+}
+
+.left-side ul {
+    display: flex;
+}
+
+.left-side a {
+    text-decoration: none;
+    color: blue;
+}
+
+.left-side .other {
+    list-style-type: none;
+    padding-top: 29px;
+    padding-left: 35px;
+    font-size: 17px;
+}
+
+.left-side .frest {
+    font-size: 26px;
+    color: blue;
+    font-family: cursive;
+    padding-top: 18px;
+    list-style-type: none;
+    padding-left: 4px;
+}
+
+.left-side .other a:hover {
+    color: black;
+    transition: all 1s;
+}
+
+.header-container {
+    display: flex;
+    background-color: rgba(255, 255, 0, 0.425);
+    height: 80px;
+    border-bottom: 2px solid blue;
+}
+
+.right-side {
+    width: 39%;
+}
+
+.right-side ul {
+    display: flex;
+    justify-content: end;
+}
+
+.right-side a {
+    text-decoration: none;
+    color: blue;
+}
+
+.right-side li {
+    list-style-type: none;
+    padding-top: 29px;
+    font-size: 17px;
+    padding-left: 35px;
+}
+
+.lefted h1 {
+    font-size: 60px;
+    color: blue;
+    padding-top: 80px;
+    padding-left: 150px;
+    font-family: sans-serif;
+}
+
+.lefted h3 {
+    padding-left: 150px;
+    padding-top: 25px;
+    font-size: 20px;
+    color: blue;
+    font-family: cursive;
+}
+
+.lefted .button {
+    padding-left: 140px;
+    padding-top: 100px;
+}
+
+.button button {
+    width: 135px;
+    height: 40px;
+    border: 2px solid blue;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.button button:hover {
+    background-color: blue;
+    color: white;
+    transition: all 1s;
+}
+
+.righted {
+    display: flex;
+    justify-content: end;
+
+}
+
+.righted img {
+    height: 400px;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+
+.header-section {
+    display: flex;
+}
+
+.first-section {
+    border-radius: 2px solid blue;
+}
+
+.second-container h1 {
+    font-size: 60px;
+    color: blue;
+    padding-top: 10px;
+    padding-left: 150px;
+    font-family: sans-serif;
+}
+
+.second-container {
+    padding-top: 80px;
+}
+
+.second-container h6 {
+    color: blue;
+    font-size: 18px;
+    padding-left: 150px;
+    padding-top: 30px;
+    font-family: monospace;
+}
+
+.gallery-container {
+    display: flex;
+    padding-left: 160px;
+    background-color: rgba(255, 255, 0, 0.435);
+}
+
+.gallery-container .images img {
+    padding-top: 70px;
+    padding-left: 45px;
+}
+
+.line {
+    width: 100%;
+    height: 40px;
+    border-bottom: 2px solid blue;
+}
+
+.line-first {
+    width: 100%;
+    height: 40px;
+    border-bottom: 2px solid blue;
+    background-color: rgba(255, 255, 0, 0.435);
+}
+
+.header-text {
+    background-color: rgba(255, 255, 0, 0.435);
+}
+
+.header-text h1 {
+    font-size: 60px;
+    color: blue;
+    padding-top: 90px;
+    padding-left: 150px;
+    font-family: sans-serif;
+}
+
+.posts {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 0, 0.435);
+}
+
+.posts .post {
+    padding: 50px 70px;
+    color: blue;
+    font-family: sans-serif;
+}
+
+.posts .post p {
+    padding-top: 15px;
+}
+
+.favor {
+    background-color: rgba(172, 255, 47, 0.342);
+}
+
+.favor h1 {
+    font-size: 50px;
+    color: blue;
+    padding-top: 50px;
+    padding-left: 150px;
+    font-family: sans-serif;
+}
+
+.favor .button {
+    padding-left: 150px;
+    padding-top: 20px;
+}
+
+.favor .button button {
+    background-color: rgba(172, 255, 47, 0.039);
+    color: blue;
+}
+
+.favor .button button:hover {
+    background-color: blue;
+    color: white;
+    transition: all 1s;
+}
+
+.gallery-posts {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    background-color: rgba(172, 255, 47, 0.342);
+    padding-bottom: 70px;
+}
+
+.gallery-post {
+    border: 2px solid blue;
+    margin-left: 20px;
+}
+
+.gallery-post h1 {
+    padding-top: 20px;
+    color: blue;
+    font-family: sans-serif;
+    font-size: 17px;
+    padding-left: 15px;
+}
+
+.gallery-post p {
+    padding-top: 7px;
+    color: blue;
+    padding-left: 15px;
+}
+
+.gallery-posts .gallery-post img {
+    height: 270px;
+}
+
+.mix-section h1 {
+    font-size: 50px;
+    color: white;
+    padding-top: 90px;
+    padding-left: 150px;
+    font-family: sans-serif;
+}
+
+.mix-section p {
+    padding-left: 154px;
+    padding-top: 28px;
+    color: white;
+    font-size: 22px;
+}
+
+.mix-section {
+    background-color: blue;
+}
+
+.mix-section .button {
+    padding-left: 150px;
+    padding-top: 30px;
+}
+
+.mix-section .button button {
+    color: blue;
+}
+
+.mix-section .button button:hover {
+    border: 2px solid white;
+    color: white;
+}
+
+.anotherpost {
+    display: flex;
+    background-color: blue;
+    justify-content: center;
+}
+
+.anotherpost .other {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+.anotherpost .other p,
+h1,
+h2 {
+    color: white;
+}
+
+.other h1 {
+    font-size: 17px;
+    font-family: sans-serif;
+    padding-top: 10px;
+}
+
+.other h2 {
+    padding-top: 10px;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.lastone {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(137, 43, 226, 0.293);
+}
+
+.lastone .twopics {
+    display: flex;
+    padding: 50px 150px;
+}
+
+.thisis {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-color: rgba(137, 43, 226, 0.293);
+    height: 400px;
+}
+
+.lastpost h1 {
+    font-size: 50px;
+    color: blue;
+    font-family: sans-serif;
+}
+
+.lastpost h4 {
+    font-size: 16px;
+    color: blue;
+    font-family: sans-serif;
+    padding: 10px 100px;
+}
+
+.lastpost p {
+    color: blue;
+}
+
+.lastpost .button {
+    padding-top: 30px;
+    padding-left: 120px;
+}
+
+.lastpost .button button {
+    background-color: rgba(137, 43, 226, 0.061);
+    color: blue;
+}
+
+.lastpost .button button:hover {
+    color: white;
+    background-color: blue;
+}
+
+.imaging img {
+    position: absolute;
+    top: 100px;
+    left: 70px;
+}
+
+.imaging2 img {
+    position: absolute;
+    top: 150px;
+    right: 80px;
+}
+
+.windows {
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid blue;
+    background-color: rgba(255, 255, 0, 0.435);
+}
+
+.windows .window {
+    padding-top: 30px;
+    border-left: 2px solid blue;
+    padding-left: 70px;
+}
+
+.window p {
+    padding-left: 15px;
+    padding-top: 30px;
+    color: blue;
+}
+
+.special-window {
+    padding: 50px 15px;
+    border-left: 2px solid blue;
+
+}
+
+.special-window h1 {
+    color: blue;
+}
+
+.special-window p {
+    padding-top: 10px;
+    color: blue;
+}
+
+.special-window input {
+    width: 350px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 0, 0.074);
+    padding-left: 10px;
+    color: blue;
+}
+
+.special-window input:hover {
+    border: 3px solid blue;
+}
+
+.special-window .inputing {
+    padding-top: 20px;
+}
+
+.special-window .button {
+    padding-top: 20px;
+}
+
+.special-window .button button {
+    background-color: blue;
+    color: white;
+}
+
+.special-window .button button:hover {
+    background-color: white;
+    color: blue;
+    border: 2px solid blue;
+    transition: all 1s;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 0, 0.435);
+}
+
+footer .logoo img {
+    height: 100px;
+    padding: 30px 50px;
+}
+
+footer p {
+    padding: 35px 30px;
+}

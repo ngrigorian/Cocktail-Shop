@@ -1,0 +1,59 @@
+@media only screen and (min-width:320px) and (max-width: 480px) {
+   
+     body{
+        max-width: 480px;
+        min-width: 320px;
+     }
+   
+    .first-section .lefted h1{
+        color: red;
+        padding-left: 10px;
+    }  
+
+    .first-section .lefted h3{
+        color: red;
+       padding-left: 20px;
+    }
+
+    .header-section .righted{
+        display: none;
+        padding-left: 10px;
+        justify-content: start;
+    }
+
+    .lefted .button{
+        padding-left: none;
+    }
+
+    .righted img{
+        padding-left: 10px;
+    }
+
+    section .second-container h1{
+        padding-left: 10px;
+    }
+
+    section .second-container h6{
+        padding-left: 10px;
+    }
+
+    .gallery-container .images img{
+      display: none;
+    }
+
+    .first-row{
+        width: 480px;
+    }
+
+    .text .header-text h1{
+        padding-left: 10px;
+    }
+
+    .posts{
+        display: flex none;
+    }
+    .posts .post{
+  flex-wrap: nowrap;
+    }
+
+}
